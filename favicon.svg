@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Pink rounded square background -->
+  <rect width="32" height="32" rx="7" fill="#E91E8C"/>
+  <!-- Subtle dot pattern overlay (2 dots) -->
+  <circle cx="6"  cy="6"  r="1.2" fill="rgba(255,255,255,0.18)"/>
+  <circle cx="26" cy="26" r="1.2" fill="rgba(255,255,255,0.18)"/>
+  <!-- Italic serif "A" – matches Playfair Display feel -->
+  <text
+    x="16"
+    y="24"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-style="italic"
+    font-weight="700"
+    font-size="23"
+    fill="#ffffff"
+    letter-spacing="-0.5"
+  >A</text>
+</svg>
