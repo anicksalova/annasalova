@@ -189,7 +189,7 @@
       flex: 1;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       padding: 52px 52px 36px;
       overflow-y: auto;
       background: #fff;
@@ -287,6 +287,23 @@
     .card:nth-child(2) { animation-delay: .16s; }
     .card:nth-child(3) { animation-delay: .24s; }
     .card:nth-child(4) { animation-delay: .32s; }
+    .card:nth-child(5) { animation-delay: .40s; }
+    .card:nth-child(6) { animation-delay: .48s; }
+    .card:nth-child(7) { animation-delay: .56s; }
+
+    .card-logo-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 52px;
+      padding: 0 16px;
+      border-radius: 12px;
+      background: var(--pink-light);
+      font-family: var(--font-h);
+      font-size: 1rem;
+      font-weight: 900;
+      color: var(--pink);
+    }
 
     @keyframes card-in {
       from { opacity: 0; transform: translateY(22px); }
@@ -534,7 +551,7 @@
 
       <div class="intro">
         <p class="section-label">Rozcestník mých projektů</p>
-        <h2 class="intro-title">Seznamte se</h2>
+        <h2 class="intro-title">Ráda vás poznávám</h2>
         <p class="intro-sub">
           Věnuji se content marketingu, copywritingu a digitální komunikaci.
           Vyberte si projekt, který vás zajímá.
@@ -563,7 +580,17 @@
           <span class="btn">Navštívit <span class="btn-arrow">→</span></span>
         </a>
 
-        <!-- 3. e-Politics -->
+        <!-- 3. ChatLab -->
+        <a class="card" href="https://chatlab.cz" target="_blank" rel="noopener">
+          <div class="card-logo">
+            <div class="card-logo-badge">ChatLab</div>
+          </div>
+          <p class="card-title">ChatLab</p>
+          <p class="card-desc">Výzkumný nástroj pro online focus group na desktop i mobil.</p>
+          <span class="btn">Navštívit <span class="btn-arrow">→</span></span>
+        </a>
+
+        <!-- 4. e-Politics -->
         <a class="card" href="https://e-politics.cz" target="_blank" rel="noopener">
           <div class="card-logo">
             <img src="images/logo-epolitics.jpg" alt="e-politics.cz logo">
@@ -573,13 +600,33 @@
           <span class="btn">Navštívit <span class="btn-arrow">→</span></span>
         </a>
 
-        <!-- 4. Legionář Jaroslav Janda -->
+        <!-- 5. Legionář Jaroslav Janda -->
         <a class="card" href="https://legionarjaroslavjanda.cz" target="_blank" rel="noopener">
           <div class="card-logo cover">
             <img src="images/logo-legionar.jpg" alt="Deník legionáře Jaroslava Jandy">
           </div>
           <p class="card-title">Legionář Jaroslav Janda</p>
           <p class="card-desc">Digitalizovaný deník mého pradědy z bojišť 1. světové války. Autentický pohled do historie ke stažení včetně fotografií.</p>
+          <span class="btn">Navštívit <span class="btn-arrow">→</span></span>
+        </a>
+
+        <!-- 6. Desklicious -->
+        <a class="card" href="https://desklicious.cz" target="_blank" rel="noopener">
+          <div class="card-logo">
+            <div class="card-logo-badge">Desklicious</div>
+          </div>
+          <p class="card-title">Desklicious</p>
+          <p class="card-desc">Navrhněte si vlastní pracovní plochu v builderu, který vám zorganizuje desktop k dokonalosti a navíc umí generovat pozadí pomocí AI.</p>
+          <span class="btn">Navštívit <span class="btn-arrow">→</span></span>
+        </a>
+
+        <!-- 7. U Starejch hadrů -->
+        <a class="card" href="https://ustarejchadru.cz" target="_blank" rel="noopener">
+          <div class="card-logo">
+            <div class="card-logo-badge">U Starejch hadrů</div>
+          </div>
+          <p class="card-title">U Starejch hadrů</p>
+          <p class="card-desc">Můj první vibecoderský pokus s webem, jak jinak, mé oblíbené hospody ve Vršovicích.</p>
           <span class="btn">Navštívit <span class="btn-arrow">→</span></span>
         </a>
 
